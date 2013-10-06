@@ -5,13 +5,13 @@ namespace SimpleMembershipExample.Migrations
     using System.Data.Entity.Migrations.Infrastructure;
     using System.Resources;
     
-    public sealed partial class InitialMigration : IMigrationMetadata
+    public sealed partial class DBUserProfilesAddedMigration : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialMigration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(DBUserProfilesAddedMigration));
         
         string IMigrationMetadata.Id
         {
-            get { return "201310061602443_InitialMigration"; }
+            get { return "201310062009453_DBUserProfilesAddedMigration"; }
         }
         
         string IMigrationMetadata.Source

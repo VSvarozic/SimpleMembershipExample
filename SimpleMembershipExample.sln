@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMembershipExample", "SimpleMembershipExample\SimpleMembershipExample.csproj", "{D90D1DE1-5178-4FDF-B74F-01D07A175736}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMembershipModule", "SimpleMembershipModule\SimpleMembershipModule.csproj", "{ED87E77C-3DB8-4B49-942A-B3964ACEB97D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D90D1DE1-5178-4FDF-B74F-01D07A175736}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D90D1DE1-5178-4FDF-B74F-01D07A175736}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D90D1DE1-5178-4FDF-B74F-01D07A175736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED87E77C-3DB8-4B49-942A-B3964ACEB97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED87E77C-3DB8-4B49-942A-B3964ACEB97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED87E77C-3DB8-4B49-942A-B3964ACEB97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED87E77C-3DB8-4B49-942A-B3964ACEB97D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

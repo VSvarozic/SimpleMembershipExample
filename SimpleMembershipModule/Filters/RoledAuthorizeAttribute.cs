@@ -8,7 +8,7 @@
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace SimpleMembershipExample
+namespace SimpleMembershipModule
 {
     public class RoledAuthorizeAttribute : AuthorizeAttribute
     {

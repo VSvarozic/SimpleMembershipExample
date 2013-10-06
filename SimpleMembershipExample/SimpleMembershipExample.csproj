@@ -137,18 +137,16 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
-    <Compile Include="Filters\RoledAuthorizeAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201310061602443_InitialMigration.cs" />
-    <Compile Include="Migrations\201310061602443_InitialMigration.Designer.cs">
-      <DependentUpon>201310061602443_InitialMigration.cs</DependentUpon>
+    <Compile Include="Migrations\201310062009049_InitialMigration.cs" />
+    <Compile Include="Migrations\201310062009049_InitialMigration.Designer.cs">
+      <DependentUpon>201310062009049_InitialMigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201310061606095_DBUserProfilesAddedMigration.cs" />
-    <Compile Include="Migrations\201310061606095_DBUserProfilesAddedMigration.Designer.cs">
-      <DependentUpon>201310061606095_DBUserProfilesAddedMigration.cs</DependentUpon>
+    <Compile Include="Migrations\201310062009453_DBUserProfilesAddedMigration.cs" />
+    <Compile Include="Migrations\201310062009453_DBUserProfilesAddedMigration.Designer.cs">
+      <DependentUpon>201310062009453_DBUserProfilesAddedMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
@@ -191,20 +189,13 @@
     <Content Include="Views\Web.config" />
     <Content Include="Scripts\jquery-2.0.3.min.map" />
     <Content Include="Views\Error\AccessDenied.cshtml" />
+    <Content Include="_AppStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201310061602443_InitialMigration.resx">
-      <DependentUpon>201310061602443_InitialMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201310061606095_DBUserProfilesAddedMigration.resx">
-      <DependentUpon>201310061606095_DBUserProfilesAddedMigration.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Account\Login.cshtml" />
@@ -217,6 +208,20 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleMembershipModule\SimpleMembershipModule.csproj">
+      <Project>{ed87e77c-3db8-4b49-942a-b3964aceb97d}</Project>
+      <Name>SimpleMembershipModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201310062009049_InitialMigration.resx">
+      <DependentUpon>201310062009049_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201310062009453_DBUserProfilesAddedMigration.resx">
+      <DependentUpon>201310062009453_DBUserProfilesAddedMigration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

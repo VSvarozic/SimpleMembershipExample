@@ -1,12 +1,13 @@
 ﻿using System.Web.Mvc;
 using System.Web.Security;
 using SimpleMembershipExample.Models;
+using SimpleMembershipModule;
 using WebMatrix.WebData;
 
 namespace SimpleMembershipExample.Controllers
 {
     [RoledAuthorize]
-    [InitializeSimpleMembership]
+    [SimpleMembershipInitializeDb]
     public class AccountController : Controller
     {
         //
