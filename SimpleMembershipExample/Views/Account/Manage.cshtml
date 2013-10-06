@@ -1,0 +1,14 @@
+﻿@model SimpleMembershipExample.Models.LocalPasswordModel
+@{
+    ViewBag.Title = "Управление учетной записью";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+
+<p>@ViewBag.StatusMessage</p>
+
+<p>Вы вошли как <strong>@User.Identity.Name</strong>.</p>
+
+
