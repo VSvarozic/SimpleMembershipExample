@@ -5,7 +5,7 @@ using WebMatrix.WebData;
 
 namespace SimpleMembershipExample.Controllers
 {
-    [Authorize]
+    [RoledAuthorize]
     [InitializeSimpleMembership]
     public class AccountController : Controller
     {
