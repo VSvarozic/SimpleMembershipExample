@@ -101,6 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configurations\SimpleMembershipModuleSection.cs" />
+    <Compile Include="Filters\ApiRoledAuthorizeAttribute.cs" />
     <Compile Include="Filters\SimpleMembershipDbAttribute.cs" />
     <Compile Include="Filters\RoledAuthorizeAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
